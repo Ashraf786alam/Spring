@@ -11,7 +11,7 @@ public class DeployApplication {
 	
 	@GetMapping("/home")
 	public String Home() {
-		return "This is home Page of springboot application";
+		return "This is home Page of springboot application and try to deploy on External Tomcat Server";
 	}
 
 	public static void main(String[] args) {
