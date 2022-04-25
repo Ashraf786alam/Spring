@@ -9,9 +9,19 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class DeployApplication {
 	
-	@GetMapping("/home")
+	@GetMapping("/home1")
 	public String Home() {
-		return "This is home Page of springboot application and try to deploy on External Tomcat Server";
+		return "This is First home Page of springboot application and try to deploy on External Tomcat Server";
+	}
+	
+	@GetMapping("/home2")
+	public String Home() {
+		return "This is Second home Page of springboot application and try to deploy on External Tomcat Server";
+	}
+	
+	@GetMapping("/home3")
+	public String Home() {
+		return "This Third is home Page of springboot application and try to deploy on External Tomcat Server";
 	}
 
 	public static void main(String[] args) {
