@@ -15,7 +15,13 @@ public class DeployApplication {
 	public String Home2() {
 		return "This is Second home Page of springboot application and try to deploy on External Tomcat Server";
 	}
-
+       
+	
+	@GetMapping("/branch1")
+	public String Branch1() {
+		return "This is Second home Page of springboot application and try to deploy on External Tomcat Server";
+	}
+	
 	
 	@GetMapping("/home3")
 	public String Home3() {
