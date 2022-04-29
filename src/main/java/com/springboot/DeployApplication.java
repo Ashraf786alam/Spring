@@ -24,6 +24,11 @@ public class DeployApplication {
 	public String Home3() {
 		return "This Third is home Page of springboot application and try to deploy on External Tomcat Server";
 	}
+    
+	@GetMapping("/home4")
+	public String Home4() {
+		return "This is Forth home Page of springboot application and try to deploy on External Tomcat Server";
+	}
 
 	public static void main(String[] args) {
 		SpringApplication.run(DeployApplication.class, args);
