@@ -9,10 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class DeployApplication {
 	
-	@GetMapping("/home1")
-	public String Home1() {
-		return "This is First home Page of springboot application and try to deploy on External Tomcat Server";
-	}
+	
 
 	@GetMapping("/home2")
 	public String Home2() {
